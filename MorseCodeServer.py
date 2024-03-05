@@ -7,7 +7,7 @@ from PyEssnt_LoganTheCreator import pyEssnt
 #Server-side code
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM )
-server.bind(('192.168.1.140', 8000))
+server.bind(('000.000.0.000', 8000))
 pyEssnt.type("Waiting for connection...")
 server.listen()
 client, addr = server.accept()
