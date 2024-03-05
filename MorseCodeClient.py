@@ -6,7 +6,7 @@ import socket
 #Server-side code
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM )
-client.connect(('192.168.1.140',8000))
+client.connect(('000.000.0.000',8000))
 
 
 
